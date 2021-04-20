@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* header area */
+.header {
+    height: 100px;
+    display: grid;
+    grid-template-columns: 20% 75%;
+    background-color: lightskyblue;
+    justify-items: end;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+}
+.logo img {
+    height: 80px;
+    width: 80px;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(5,100px);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* banner area */
+.banner{
+    height: 200px;
+    background-image: url(../images/fruity.png);
+    margin: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid gold;
+}
+
+.bro a {
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+    padding: 10px;
+    justify-items: right;
+    display: grid;
+}
+
+
+
+/* maincontent */
+.maincontent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+}
+.child1 {
+    height: 350px;
+    width: 600px;
+    background-color: grey;
+    padding: 20px;
+    margin: 20px;
+    background-image: url(../images/banana.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid gold;
+}
+.child2b {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.child2a {
+    background-color: grey;
+    height: 165px;
+    background-image: url(../images/lemon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px 20px 0 20px;
+    border: 5px solid gold;
+}
+
+.child2b1 {
+    background-color: grey;
+    height: 165px;
+    padding: 15px;
+    margin: 20px;
+    background-image: url(../images/orange.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid gold;
+}
+
+.child2b2 {
+    background-color: grey;
+    height: 165px;
+    padding: 15px;
+    margin: 20px;
+    background-image: url(../images/grapes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid gold;
+}
+
+/* subcontent */
+.subcontent1 {
+    height: 100px;
+    background-color: teal;
+    margin: 20px;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.subcontent2 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 20px;
+}
+
+.subcontent2 div {
+    background-color: grey;
+    height: 200px;
+    margin: 10px;
+    background-image: url(../images/strawberry.jpg);
+    border: 5px solid gold;
+}
+
+.bro1 img {
+    margin: 20px;
+    height: 80px;
+    width: 80px;
+    border-radius: 60px;
+    
+}
+
+/* footer */
+#footer {
+    background-color: black;
+    margin: 20px;
+    height: 80px;
+    text-align: center;
+    justify-items: center;
+    display: grid;
+    align-items: center;
+}
+
+#footer small {
+    color: white;
+}
